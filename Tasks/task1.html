@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task_2</title>
+  </head>
+  <body>
+    <h1>Задача 1</h1>
+    <script>
+      /*Задача 1.  Знайти суму, добуток та частку двох дійсних чисел. Результат вивести у формі таблиці
+       */
+      // 0 -----------
+      // перша дійсне число - firstNuumber
+      // друга дійсне число - secondNumber
+      // сумма - sum
+      // добуток - product
+      // частка - fraction
+      //1. Вводимо необхідні змінні
+      let firstNubmer = parseFloat(prompt("Введіть перше дійсне число"));
+      let secondNumber = parseFloat(prompt("Введіть друге дійсне число"));
+      //2.Обчислення резукльтату 
+      let sum = firstNubmer + secondNumber;
+      let product = firstNubmer * secondNumber;
+      let fraction = firstNubmer / secondNumber;
+      //3.Виводимо результата
+      document.write(
+        `Сумма = ${sum.toFixed(2)}<br> Добуток = ${product.toFixed(
+          2
+        )}<br> Частка = ${fraction.toFixed(2)}<br>`
+      );
+    </script>
+  </body>
+</html>

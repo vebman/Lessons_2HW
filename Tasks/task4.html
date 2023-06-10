@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task_4</title>
+  </head>
+  <body>
+    <h1>Задача 4</h1>
+    <script>
+      /*Задача 4. Дано довжину у сантиметрах. Визначати скільки це метрів і кілометрів.
+       */
+      // 0 -----------
+      // Довджна в сантиметрах - cantimterLenght
+      // Один кілометр - kilometr
+      // Один метр - metr
+      //1. Вводимо необхідні данні\
+      let cantimterLenght = parseInt(prompt("Введіть довжину в сантиметрах"));
+      const kilometr = 1000;
+      const metr = 100;
+      //2.Обчислення рузультату
+      let metrLenght = cantimterLenght / metr;
+      let kilometrLenght = metrLenght / kilometr;
+      //3. Виводимо результат
+      document.write(
+        `Довжина в сантиметрах: ${cantimterLenght}<br> Довжина в метрах: ${metrLenght}<br> Довжина в кілометрах: ${kilometrLenght}`
+      );
+    </script>
+  </body>
+</html>
